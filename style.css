@@ -1,0 +1,392 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    left: 400px;
+    height: 850vh;
+  
+}
+    
+.navigation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background-color: #0277BD;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.5s;
+    overflow: hidden;
+    float: left;
+}
+.navigation ul{
+    position: absolute;
+    top: 15px;
+    width: 100%;
+}
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 25px;
+ 
+}
+.navigation ul li:hover{
+    border: 1px solid #E91E63;
+    background-color: #E91E63;
+    border-radius: 3px;
+}
+.navigation ul li a{
+    padding: 7px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    color: white;
+
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.navigation ul li a .fa{
+    font-size: 24px;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    min-width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: start;
+    white-space: nowrap;
+}
+.profile{
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    height: 105px;
+    color: white;
+}
+.profile img{
+    margin: 4px auto;
+    display: block;
+    width: 65px;
+   
+}
+.nav1{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.text-light a{
+   text-decoration: none;
+   color: white;
+}
+section{
+    overflow: hidden;
+    display: block;
+}
+#body2{
+    margin-left: 300px;
+    display: block;
+}
+.body1{
+    background-color: #0277BD;
+    margin: 15px 5px;
+    height: 175px;
+    text-align: center;
+    border: #0277BD 2px solid;
+    border-radius: 5px;
+}
+.body1 input{
+    outline: none;
+    width: 450px;
+    height: 30px;
+    margin: 72px 5px;
+}
+.section1{
+    margin: 5px 15px;
+}
+.div1{
+    width: 100%;
+    height: 220px;
+    float: left;
+}
+.img1{
+    box-sizing: border-box;
+    box-shadow: green 200px;
+    margin-left: 15px;
+    width: 180px;
+    height: 210px;
+    float: left;
+    margin: 10px 10px;
+   
+}
+.img1 img{
+    
+    width: 180px;
+    height: 180px;
+}
+.img1:hover{
+    width: 185px;
+    height: 215px;
+}
+.img1 img:hover{
+    width: 185px;
+    height: 185px;
+}
+.icon1{
+   
+    color: rgb(188, 184, 184);
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.icon1:hover{
+    font-size: large;
+}
+.img1 a{
+     text-shadow: 5px 5px 5px #0277BD,5px 5px 5px #0288D1;
+    text-decoration: none;
+}
+.div2{
+    width: 100%;
+    height: 230px;
+    float: left;
+}
+.imag2{
+    box-sizing: border-box;
+    box-shadow: green 200px;
+    margin-left: 15px;
+    width: 180px;
+    height: 210px;
+    float: left;
+    margin: 10px 10px;
+   
+}
+.imag2 img{
+    
+    width: 180px;
+    height: 180px;
+}
+.imag2:hover{
+    width: 185px;
+    height: 215px;
+}
+.imag2 img:hover{
+    width: 185px;
+    height: 185px;
+}
+.icon2{
+   
+    color: rgb(188, 184, 184);
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.icon2:hover{
+    font-size: large;
+}
+.imag2 a{
+     text-shadow: 5px 5px 5px #0277BD,5px 5px 5px #0288D1;
+    text-decoration: none;
+}
+.div3{
+    width: 100%;
+    height: 230px;
+    float: left;
+}
+.imag3{
+    box-sizing: border-box;
+    box-shadow: green 200px;
+    margin-left: 15px;
+    width: 180px;
+    height: 210px;
+    float: left;
+    margin: 10px 10px;
+   
+}
+.imag3 img{
+    
+    width: 180px;
+    height: 180px;
+}
+.imag3:hover{
+    width: 185px;
+    height: 215px;
+}
+.imag3 img:hover{
+    width: 185px;
+    height: 185px;
+}
+.icon3{
+   
+    color: rgb(188, 184, 184);
+    text-align: center;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+.icon3:hover{
+    font-size: large;
+}
+.imag3 a{
+     text-shadow: 5px 5px 5px #0277BD,5px 5px 5px #0288D1;
+    text-decoration: none;
+}
+.section2{
+    width: 100%;
+    height: 400px;
+    background:black;
+    position: relative;
+    display: flex;
+}
+.section2 .heading{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'EB Garamond', serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Kanit', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.section2 .heading a{
+    text-decoration: none;
+    color: white;
+}
+/* .section2 a{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-decoration: none;
+    color: white;
+} */
+.section2 img{
+    margin: 0px 670px;
+  height: 100%;
+}
+.chapter{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.chapter .shloka1{
+    width: 50%;
+    background-image: url(bg7.jpg);
+    background-size: cover;
+    color: white;
+}
+.chapter .content{
+  width: 75%;
+}
+
+.chapter2{
+    width: 100%;
+    height: 900px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.chapter2 .shloka2{
+    width: 50%;
+  background-image: url(bg7.jpg);
+  background-size: cover;
+  color: white;
+}
+.chapter2 .content2{
+  width: 75%;
+}
+.chapter3{
+    width: 100%;
+    height: 950px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.chapter3 .shloka3{
+  width: 50%;
+  background-image: url(bg7.jpg);
+  background-size: cover;
+  color: white;
+}
+.chapter3 .content3{
+  width: 75%;
+}
+.chapter4{
+    width: 100%;
+    height: 1150px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.chapter4 .shloka4{
+  width: 50%;
+  background-image: url(bg7.jpg);
+  background-size: cover;
+  color: white;
+}
+.chapter4 .content4{
+  width: 75%;
+
+}
+.chapter5{
+    width: 100%;
+    height: 950px;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.chapter5 .shloka5{
+  width: 50%;
+  background-image: url(bg7.jpg);
+  background-size: cover;
+  color: white;
+}
+.chapter5 .content5{
+  width: 75%;
+}
